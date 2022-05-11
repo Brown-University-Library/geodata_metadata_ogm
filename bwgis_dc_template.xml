@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="http://faculty.baruch.cuny.edu/geoportal/metadata/bcgis_dcxml.css"?>
+<?xml-stylesheet type="text/css" href="https://github.com/Brown-University-Library/geodata_metadata_ogm/blob/main/bwgis_dcxml.css"?>
 <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="http://faculty.baruch.cuny.edu/geoportal/metadata/bcgis_dc_schema.xsd">
+xsi:noNamespaceSchemaLocation="https://github.com/Brown-University-Library/geodata_metadata_ogm/blob/main/bwgis_dcxml.css">
 <title>varies</title>
 <creator>name</creator>
 <subject>ISO 19115 topic</subject>
 <subject>ISO 19115 topic</subject>
 <description>paragraph</description>
-<publisher>Newman Library (Bernard M. Baruch College)</publisher>
+<publisher>Brown University Library</publisher>
 <contributor>optional</contributor>
 <issued>YYYY-MM</issued>
 <type>Dataset</type>
@@ -26,6 +26,6 @@ xsi:noNamespaceSchemaLocation="http://faculty.baruch.cuny.edu/geoportal/metadata
 <rights>Public</rights>
 <license>name</license>
 <license>url</license>
-<provenance>Baruch CUNY</provenance>
+<provenance>Brown</provenance>
 <accrualperiodicity>DC frequency</accrualperiodicity>
 </metadata>
