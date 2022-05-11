@@ -1,5 +1,5 @@
-/*Stylesheet for Baruch College GIS Lab DC XML metadata records*/
-/*Frank Donnelly, Geospatial Data Librarian*/
+/*Stylesheet for GeoData@SciLi DC XML metadata records*/
+/*Frank Donnelly, GIS & Data Librarian Brown University*/
 
 @namespace xsi url(http://www.w3.org/2001/XMLSchema-instance);
 
@@ -7,7 +7,7 @@ metadata:before {
 	display: inline-block;
 	font-weight: bold;
 	content: "Dublin Core Metadata Record";
-	background-color: #085394;
+	background-color: #4e3629;
 	color: white;
 	padding: 1em;
 	margin-bottom: 2em;
@@ -15,8 +15,8 @@ metadata:before {
 
 metadata:after {
 	display: inline-block;
-	content: "GIS Lab, Newman Library, Baruch College CUNY";
-	background-color: #085394;
+	content: "GeoData@SciLi, Brown University Library";
+	background-color: #4e3629;
 	color: white;
 	padding: .5em;
 	margin-top: 1em;
@@ -31,7 +31,7 @@ metadata {
 	line-height:1.5em;
 	margin: 1em;
 	padding: 1em;
-	border: 5px solid #085394;
+	border: 5px solid #4e3629;
 	background-color: white;
 	}
 

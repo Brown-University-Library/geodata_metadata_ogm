@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Frank Donnelly Geospatial Data Librarian Baruch CUNY
+# Frank Donnelly GIS & Data Librarian Brown University
 
 """
 # Validate folder of xml files against xml schema. Validation of a file stops 
@@ -12,7 +12,7 @@ import xmlschema as xmls
 import os
 
 # Modify the xmlfolder value to point to the desired path
-schemafile=os.path.join('bcgis_dc_schema.xsd')
+schemafile=os.path.join('bwgis_dc_schema.xsd')
 #xmlfolder=os.path.join('projects','nyc_mass_transit','newfiles')
 xmlfolder=os.path.join('projects','irs_exempt_orgs','newfiles')
 

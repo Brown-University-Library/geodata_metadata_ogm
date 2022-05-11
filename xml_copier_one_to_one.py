@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Frank Donnelly Geospatial Data Librarian Baruch CUNY
+# Frank Donnelly GIS & Data Librarian Brown University
 
 # Loops through directory and makes one copy of each xml based on a year or
 # month-year combination. These copies can be edited manually or via a script

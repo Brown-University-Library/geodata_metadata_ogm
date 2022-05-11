@@ -1,12 +1,12 @@
-# GIS Lab Metadata Scripts
+# GeoData@SciLi Metadata Scripts
 
 This repository contains a collection of scripts used for creating, updating, and validating XML metadata records for datasets produced by GeoData@SciLi at Brown University. We use a subset of Dublin Core elements and terms that align closely with the OpenGeoMetadata Aardvark schema.
 
-* bcgis_dap.md: data application profile, describes the metadata standards we use
-* bcgis_dc_schema.xsd: schema for validating our metadata
-* bcgis_dc_template.xml:  blank xml file with place holders
-* bcgis_dc_validate.py: script for validating metadata records against our schema, using the xmlschema module
-* bcgis_dcxml.css: stylesheet for our metadata records
+* bwgis_dap.md: data application profile, describes the metadata standards we use
+* bwgis_dc_schema.xsd: schema for validating our metadata
+* bwgis_dc_template.xml:  blank xml file with place holders
+* bwgis_dc_validate.py: script for validating metadata records against our schema, using the xmlschema module
+* bwgis_dcxml.css: stylesheet for our metadata records
 * update_xml_funcs.py: generic functions for updating metadata, designed to be read into scripts written for specific projects
 * xml_copier_one_to_many.py: script that copies one metadata file and makes multiple copies using a different suffix for a range of years
 * xml_copier_one_to_one.py: script that makes a copy of each metadata file in a folder and renames it using a suffix for a new year or month-year

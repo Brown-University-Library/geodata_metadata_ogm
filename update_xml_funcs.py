@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Frank Donnelly Geospatial Data Librarian Baruch CUNY
+# Frank Donnelly GIS & Data Librarian Brown University
 
 # Functions for updating XML metadata files
 
