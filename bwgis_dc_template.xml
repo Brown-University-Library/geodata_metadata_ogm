@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="https://github.com/Brown-University-Library/geodata_metadata_ogm/blob/main/bwgis_dcxml.css"?>
 <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="https://github.com/Brown-University-Library/geodata_metadata_ogm/blob/main/bwgis_dcxml.css">
+xsi:noNamespaceSchemaLocation="https://github.com/Brown-University-Library/geodata_metadata_ogm/blob/main/bwgis_dc_schema.xsd">
 <title>varies</title>
 <creator>name</creator>
 <subject>ISO 19115 topic</subject>
