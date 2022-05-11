@@ -1,6 +1,6 @@
 # GIS Lab Metadata Scripts
 
-This repository contains a collection of scripts used for creating, updating, and validating XML metadata records for datasets produced by the Baruch College GIS Lab. We use a subset of Dublin Core elements and terms that align closely with the Geoblacklight Metadata Standards.
+This repository contains a collection of scripts used for creating, updating, and validating XML metadata records for datasets produced by GeoData@SciLi at Brown University. We use a subset of Dublin Core elements and terms that align closely with the OpenGeoMetadata Aardvark schema.
 
 * bcgis_dap.md: data application profile, describes the metadata standards we use
 * bcgis_dc_schema.xsd: schema for validating our metadata
