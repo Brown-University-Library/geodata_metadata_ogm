@@ -1,4 +1,3 @@
----
 # TITLE
 dct_title_s: topic, place, year
 
@@ -84,4 +83,3 @@ gbl_mdVersion_s: Aardvark
 
 # GEOREFERENCED
 gbl_georeferenced_b: False
----
