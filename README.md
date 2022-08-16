@@ -4,4 +4,4 @@ This repository contains schemas and scripts used for validating YAML metadata r
 
 * sample_metadata: sample records used for validation
 * schemas: the original JSON Aardvark schema, the JSON schema for Brown which contains a subset of these elements with additional validation requirements, and Brown's data application profile that contains lists of elements, terms, standards, and requirements
-* scripts: *validate_basic.py* uses the jsonschema, json, and yaml modules to validate one YAML record against a JSON schema
+* scripts: *validate_basic.py* uses the jsonschema, json, and yaml modules to validate one YAML record against a JSON schema, and if successful creates a copy in markdown for display on GitHub
