@@ -1,0 +1,10 @@
+Useful reference and documentation
+
+https://opengeometadata.org/docs/about-ogm-aardvark
+https://opengeometadata.org/docs/ogm-aardvark
+
+https://python.land/data-processing/python-yaml
+https://www.andrewvillazon.com/validate-yaml-python-schema/
+
+https://journal.code4lib.org/articles/15875
+https://journal.code4lib.org/articles/15405
