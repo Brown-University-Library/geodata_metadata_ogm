@@ -74,14 +74,14 @@ dct_accessRights_s: Public
 dct_format_s: CSV
 
 # UNIQUE ID
-id: brown-08152022AAA
+id: brown-08182022AAA
 
 # IDENTIFIER
 dct_identifier_sm:
 - https://github.com/Brown-University-Library/geodata_un_retail_idx
 
 # METADATA MODIFIED
-gbl_mdModified_dt: '2022-08-15'
+gbl_mdModified_dt: '2022-08-18'
 
 # METADATA VERSION
 gbl_mdVersion_s: Aardvark

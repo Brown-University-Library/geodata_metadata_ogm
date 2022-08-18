@@ -146,6 +146,8 @@
     },
     "dct_subject_sm": {
       "type": "array",
+	  "minItems": 2,
+	  "maxItems": 4,
       "items": {
         "type": "string"
       }
@@ -243,7 +245,9 @@
      ] 
     },
     "id": { 
-    "type": "string"
+    "type": "string",
+	"pattern": 
+	"^brown-\\d{8}[A-Z]{3}$"
     },
     "dct_identifier_sm": {
       "type": "array",
