@@ -15,8 +15,8 @@ import yaml,json,os
 # so you can move down to schemas and samples folders
 os.chdir(os.path.dirname(os.getcwd()))
 
-schemafile=os.path.join('schemas','brown_aardvark_schema.json')
-metafile=os.path.join('sample_metadata','un_icsc_rpid_metadata.yaml')
+schemafile=os.path.join('schemas','brown_aardvark_globus_schema.json')
+metafile=os.path.join('sample_metadata','landscan_popgrid_ukraine_russia_2022.yaml')
 mdfile=os.path.join('sample_metadata',
                     os.path.basename(metafile).split('.')[0]+'.md')
 

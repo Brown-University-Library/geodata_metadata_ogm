@@ -1,7 +1,6 @@
 Useful reference and documentation
 
-https://opengeometadata.org/docs/about-ogm-aardvark
-https://opengeometadata.org/docs/ogm-aardvark
+https://opengeometadata.org/ogm-aardvark/
 
 https://python.land/data-processing/python-yaml
 https://www.andrewvillazon.com/validate-yaml-python-schema/

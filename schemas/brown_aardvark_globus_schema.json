@@ -1,0 +1,271 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "description": "Brown's Implementation of the GeoBlacklight Schema, variant for Globus IDs",
+  "id": "http://geoblacklight.org/schema/aardvark",
+  "title": "Aardvark Schema - Brown",
+  "type": "object",
+  "properties": {
+    "dct_title_s": {
+    "type": "string" 
+    },
+    "dct_description_sm": {
+      "type": "array",
+      "maxItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "dct_language_sm": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength":3,
+        "maxLength":3
+      }
+    },
+    "dct_creator_sm": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dct_publisher_sm": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "schema_provider_s": {
+        "type": "string", 
+        "const": "Brown" 
+    },
+    
+    "gbl_resourceClass_sm": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Datasets",
+          "Maps",
+          "Imagery",
+          "Collections",
+          "Websites",
+          "Web services",
+          "Other"
+        ]
+      }
+    },
+    "gbl_resourceType_sm": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum" : [
+            "Aerial photographs",
+            "Aerial views",
+            "Aeronautical charts",
+            "Annotations",
+            "Armillary spheres",
+            "Astronautical charts",
+            "Astronomical models",
+            "Atlases",
+            "Basemaps",
+            "Bathymetric maps",
+            "Block diagrams",
+            "Bottle-charts",
+            "Cadastral maps",
+            "Cartographic materials",
+            "Cartographic materials for people with visual disabilities",
+            "Celestial charts",
+            "Celestial globes",
+            "Census data",
+            "Children’s atlases",
+            "Children’s maps",
+            "Comparative maps",
+            "Composite atlases",
+            "Digital elevation models",
+            "Digital maps",
+            "Early maps",
+            "Ephemerides",
+            "Ethnographic maps",
+            "Fire insurance maps",
+            "Flow maps",
+            "Gazetteers",
+            "Geological cross-sections",
+            "Geological maps",
+            "Globes",
+            "Gores (Maps)",
+            "Gravity anomaly maps",
+            "Index maps",
+            "LiDAR",
+            "Line data",
+            "Linguistic atlases",
+            "Loran charts",
+            "Manuscript maps",
+            "Mappae mundi",
+            "Mental maps",
+            "Mesh data",
+            "Meteorological charts",
+            "Military maps",
+            "Mine maps",
+            "Miniature maps",
+            "Multi-spectral data",
+            "Nautical charts",
+            "Oblique photographs",
+            "Outline maps",
+            "Photogrammetric maps",
+            "Photomaps",
+            "Physical maps",
+            "Pictorial maps",
+            "Plotting charts",
+            "Point cloud data",
+            "Point data",
+            "Polygon data",
+            "Portolan charts",
+            "Quadrangle maps",
+            "Raster data",
+            "Relief models",
+            "Remote-sensing maps",
+            "Road maps",
+            "Satellite imagery",
+            "Statistical maps",
+            "Stick charts",
+            "Streetview photographs",
+            "Strip maps",
+            "Table data",
+            "Thematic maps",
+            "Topographic maps",
+            "Tourist maps",
+            "Upside-down maps",
+            "Wall maps",
+            "World atlases",
+            "World maps",
+            "Worm's-eye views",
+            "Zoning maps"        
+        ]
+      }
+    },
+    "dct_subject_sm": {
+      "type": "array",
+	  "minItems": 2,
+	  "maxItems": 4,
+      "items": {
+        "type": "string"
+      }
+    },
+    "dcat_theme_sm": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+        "Agriculture",
+        "Biology",
+        "Boundaries",
+        "Climate",
+        "Economy",
+        "Elevation",
+        "Environment",
+        "Events",
+        "Geology",
+        "Health",
+        "Imagery",
+        "Inland Waters",
+        "Land Cover",
+        "Location",
+        "Military",
+        "Oceans",
+        "Property",
+        "Society",
+        "Structure",
+        "Transportation",
+        "Utilities"
+        ]
+      }
+    },
+    "dct_temporal_sm": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dct_issued_s": { 
+        "type": "string", 
+        "minLength":4,
+        "maxLength":7
+    },
+    "dct_spatial_sm": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dcat_bbox": { 
+    "type": "string", 
+    "pattern": "^ENVELOPE\\((-?[0-9]*\\.-?[0-9]+(,-?[0-9]*\\.-?[0-9]+)+)\\)$"
+    },
+    "dct_rights_sm": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dct_license_sm": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "dct_accessRights_s": { 
+    "type": "string",
+    "enum": [
+    "Public",
+    "Restricted"
+    ]
+    },
+    "dct_format_s": {
+     "type": "string",
+     "enum": [
+     "CSV",
+     "DTA",
+     "Excel",
+     "File Geodatabase",
+     "GeoJSON",
+     "Geopackage",
+     "JPEG",
+     "JSON",
+     "PDF",
+     "PNG",
+     "Shapefile",
+     "SQLite",
+     "Text",
+     "TIF",
+     "TSV",
+     "XML",
+     "YAML"
+     ] 
+    },
+    "id": { 
+    "type": "string",
+	"pattern": 
+	"^[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12}$"
+    },
+    "dct_identifier_sm": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "gbl_mdModified_dt": {
+      "type": "string",
+      "format": "date",
+      "minLength":10,
+      "maxLength":10
+    },
+    "gbl_mdVersion_s": {
+      "type": "string",
+      "const": "Aardvark"
+    },
+    "gbl_georeferenced_b": { "type": "boolean" }
+  },
+  "required": ["dct_title_s","dct_description_sm","dct_language_sm","dct_creator_sm","dct_publisher_sm","schema_provider_s","gbl_resourceClass_sm","gbl_resourceType_sm","dct_subject_sm","dcat_theme_sm","dct_temporal_sm","dct_issued_s","dct_spatial_sm","dcat_bbox","dct_rights_sm","dct_license_sm","dct_accessRights_s","dct_format_s","id","dct_identifier_sm","gbl_mdModified_dt","gbl_mdVersion_s","gbl_georeferenced_b"]
+}
